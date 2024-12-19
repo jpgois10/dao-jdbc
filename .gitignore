@@ -1,0 +1,76 @@
+### git ignore full template
+# Diretórios de saída de compilação (gerados por Maven, Gradle, etc.)
+out/
+build/
+target/
+
+# Exceções: não ignorar os wrappers do Maven e os diretórios de build em src/main e src/test
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+**/.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Arquivos de pacotes Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.orig
+
+# Arquivos sensíveis ou de ambiente
+*.env
+*.key
+*.properties
+*.config
+*.secret
+
+# Arquivos gerados durante a execução de testes
+/test-output/
+
+# Arquivos de documentação
+*.javadoc
+
+# Arquivos específicos de sistemas operacionais
+Thumbs.db
